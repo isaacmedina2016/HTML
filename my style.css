@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+label.logo{
+	color: #ffffff;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav {
+	background-color: #022020;
+	height: 80px;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	line-height: 80px;
+	display: inline-block;
+	margin: 0;
+}
+
+nav ul li a{
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.active,a:hover{
+	font-size: 18px;
+	background-color: #001122;
+	transition: 1.5s;
+}
